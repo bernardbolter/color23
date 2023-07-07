@@ -1,0 +1,46 @@
+@import './vars.scss';
+
+.artwork-slider-container {
+        margin: 50px auto;
+        max-width: 800px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 15px 15px rgb(0 0 0 / 25%);
+      
+      .slider-image {
+        overflow: hidden;
+      }
+      
+      .slider-image.slider-painting {
+        z-index: 1;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+      }
+      
+      .slider-image.slider-painting img {
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .slider-handle {
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        background: white;
+        z-index: 3;
+        cursor: col-resize;
+        top: 0;
+      }
+ 
+    img {
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        pointer-events: none;
+    }
+}

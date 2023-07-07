@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,600');
+
+$font: 'Barlow Semi Condensed', sans-serif;
+
+html {
+  font-family: $font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+// COLORS
+
+$red: #A41E22;
+$orange: #F09120;
+$yellow: #E1B324;
+$olive: #869F66;
+$green: #4DA446;
+$aqua: #1D9F97;
+$colbalt: #3482AD;
+$blue: #3B5BA9;
+$purple: #674D8C;
+$dark: #393A3A;
+
+$nav-background: #ECECEC;
+$art-list-background: #F8F8F8;
+$menu-color: #717171;
+$error-red: #BE4352;
+$less-dark: #5E5E5E;
+$pin-color: #9E5D5D;
+
+// BREAKPOINTS
+
+$desktop : 769px;
+
+// TRANSITIONS
+
+$fast : .5s ease-in-out;
+$slow : 1s ease-in-out;
